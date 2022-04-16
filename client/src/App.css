@@ -1,0 +1,65 @@
+.App {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.info {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+.info input {
+    width: 300px;
+    height: 50px;
+    font-size: 20px;
+    padding-left: 10px;
+    margin: 5px;
+}
+
+.info button{
+    width: 320px;
+    height: 50px;
+    margin-top: 15px;
+}
+
+.info button:hover {
+    cursor: pointer;
+}
+
+.person {
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    width: 300px;
+    height: auto;
+    border: 1px solid black;
+    margin: 10px;
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.person p {
+    font-size: 13px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.arrow {
+    
+    margin-top: 15px;
+    width:auto;
+    height:50px;
+}
+
+.custom {
+    color:'red';
+    
+}
+
+.custom:visited {
+    background-color: red;
+    color: red;
+}

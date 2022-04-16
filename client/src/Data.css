@@ -1,0 +1,13 @@
+.list-group-item {
+    float:center;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+}
+
+.list-group {
+    float:center;
+    position:relative;
+    display:flex;
+    flex-direction: column;
+}
