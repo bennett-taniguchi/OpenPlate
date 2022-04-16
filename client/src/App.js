@@ -26,7 +26,7 @@ export default function App() {
 
   // Sets current page of results displayed
   function setPage(index) {
-    console.log(index);
+    
     if (index == 0) {
       setOffset(0);
       setNum(0);
@@ -83,6 +83,7 @@ export default function App() {
       });
   };
 
+
   return (
     <div className="App">
       <Navigation />
@@ -119,7 +120,7 @@ export default function App() {
             </Button>
           </Tooltip>
 
-          <Button onClick={clearDB} variant="outline-danger">
+          <Button onClick={()=> setPost([])} variant="outline-danger">
             Clear Results
           </Button>
         </div>
