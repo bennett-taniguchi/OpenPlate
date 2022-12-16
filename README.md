@@ -9,9 +9,7 @@ https://lucid.app/lucidchart/c48c1027-be2d-4b0a-a9e1-11308cf2d8a4/edit?invitatio
 
 [OpenPlate Crows Foot ERD.pdf](https://github.com/bennett-taniguchi/OpenPlate/files/8499070/OpenPlate.Crows.Foot.ERD.pdf)
 
-All operations in /server rely upon the server hosted on port 3006, with a password of 'password'.
 Calls to the backend, and to yelp-api are sent on the backend with expressJS on NodeJS.
-
 
 # Frontend:
 
@@ -22,9 +20,4 @@ the search page on the left and enter search queries by city and tag. City is re
 'Coffee'. Users can search for result globally returned from the yelp-fusion api. They can load results by page number by click the page requested and refresh
 or the search term again to reload. Results are displayed vertically, users must scroll, they can clear results as well.
 
-Users can see their saved results visualized by their most common tags, displayed in a graph in 'Anaytics'. Tags are extracted and duplicate tags intra-string
-and as identical duplicates are parsed and summed up upon the graph.
 
-# Video Demonstration:
-
-https://youtu.be/iu4YVufG7C4
