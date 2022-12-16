@@ -3,13 +3,9 @@ CRUD application in React with yelp-fusion, local mySQL, node.js
 
 OpenPlate is a CRUD application that runs locally on mySQL server here is the database ERD, with types and values:
 
-# Backend:
-
-https://lucid.app/lucidchart/c48c1027-be2d-4b0a-a9e1-11308cf2d8a4/edit?invitationId=inv_189ec1f0-7e72-428e-afc8-de95e3547206
+# Backend ERD:
 
 [OpenPlate Crows Foot ERD.pdf](https://github.com/bennett-taniguchi/OpenPlate/files/8499070/OpenPlate.Crows.Foot.ERD.pdf)
-
-Calls to the backend, and to yelp-api are sent on the backend with expressJS on NodeJS.
 
 # Frontend:
 
